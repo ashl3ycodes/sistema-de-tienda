@@ -133,7 +133,7 @@ public class Main {
 							boolean editing = true;
 							while(editing) {
 								System.out.println(pEdit);
-								System.out.println("\n1. Editar nombre");
+								System.out.println("1. Editar nombre");
 								System.out.println("2. Editar precio");
 								System.out.println("3. Editar stock");
 								System.out.println("4. Editar proveedor");
@@ -288,6 +288,35 @@ public class Main {
 					case 7: {
 						System.out.println("Cerrando sesion...");
 						sessionActive = false;
+						break;
+					}
+					case 35: {
+						String[] icon = {
+							"            @@@@@@@@@@@            ",
+							"        @@@             @@@        ",
+							"      @@                   @@      ",
+							"    @@                       @@    ",
+							"   @@@                        @@   ",
+							"  @@@                          @@  ",
+							" @@@          @@      @@       @@@ ",
+							"@@@@          @@@@    @ @@     @@@@",
+							"@@@@         @@ @@@ @ @ @@      @@@",
+							"@@@@         @@@@@@ @@@@@@      @@@",
+							"@@@         @ @@@@@@@@@@@       @@@",
+							"@@@               @ @ @@     @  @@@",
+							" @@                          @@@@@ ",
+							"  @               @ @@       @@@@  ",
+							"              @       @      @@@   ",
+							"             @@@ @    @@@    @@    ",
+							"           @@@ @@@@@@@@ @@         ",
+							"        @@@@@@ @@@@@@@  @@@        ",
+							"            @ @@@@@@@@@            ",
+							"  Código por Anshurii(ashl3ycodes) ",
+							"   https://github.com/ashl3ycodes  "
+						};
+						for(String line: icon) {
+							System.out.println(line);
+						}
 						break;
 					}
 					case 0: {
